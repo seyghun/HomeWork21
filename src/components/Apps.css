@@ -1,0 +1,105 @@
+.add_pub {
+    color: #17202a;
+    ;
+}
+
+.user_info {
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    background-color: #17202a;
+    width: 700px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    padding-bottom: 30px;
+    color: #FFFF;
+}
+
+.avatar {
+    height: 55px;
+    width: 55px;
+    border-radius: 51%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.avatar:hover {
+    transform: scale(-1, 1);
+}
+
+
+.check {
+    height: 25px;
+    width: 25px;
+    margin-top: 16px;
+}
+
+
+.author_name {
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 16px;
+    color: #FFFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#profile_tag {
+    color: gray;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+
+.post_part {
+    margin-left: 60px;
+    color: #FFFF;
+}
+
+.publication_text {
+    margin-left: 0;
+    width: fit-content;
+    padding-left: 22px;
+}
+
+#post_img {
+    height: 300px;
+    width: 600px;
+    border-radius: 15px;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0 0 50px;
+    width: fit-content;
+}
+
+.actions img {
+    height: 20px;
+    width: 20px;
+    transition: .2s;
+}
+
+.actions p {
+    margin: 1px 0 0 10px;
+}
+
+.repost_ico,
+.like_ico,
+.download_ico {
+    margin-left: 115px;
+    cursor: pointer;
+}
+
+.message_ico {
+    cursor: pointer;
+}
+
+.actions img:hover {
+    transform: scale(1.3);
+}
